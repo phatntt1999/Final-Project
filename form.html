@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Rio Booking</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+    <div id="content">
+        <div class="booking-panel">
+            <div class="container">
+                <div class="panel">
+                    <div class="choosing-form">
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <label>check in</label>
+                                <input class="clearfix" type="date">
+                                <span>dd mm yyyy</span>
+                                <i class="far fa-calendar-alt"></i>
+                                </input>
+                            </div>
+                            <div class="col-sm-4">
+                                <label>check out</label>
+                                <button class="clearfix">
+                                    <span>dd mm yyyy</span>
+                                    <i class="far fa-calendar-alt"></i>
+                                </button>
+                            </div>
+                            <div class="col-sm-1">
+                                <label for="no-of-participants">No. of Participants</label>
+                                <select name="no-of-participants" id="no-of-participants" value="1">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="7">7</option>
+                                    <option value="8">8</option>
+                                    <option value="9">9</option>
+                                    <option value="10">10</option>
+                                    <option value="10up">10 +</option>
+                                </select>
+                            </div>
+                            <div class="col-sm-1">
+                                <label for="kid">kids</label>
+                                <select name="kid" id="kid" value="1">
+                                    <option value="1">30-50 persons</option>
+                                    <option value="2">40-60 persons</option>
+                                    <option value="3">50-80 persons</option>
+                                    <option value="4">70-100 persons</option>
+                                    <option value="5">100-150 persons</option>
+                                </select>
+                            </div>
+                            <div class="col-sm-2">
+                                <button class="submit">Search</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
